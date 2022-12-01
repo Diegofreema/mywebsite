@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+    .heroButton {
+        @apply px-4 uppercase text-sm tracking-widest border border-black rounded-full text-black transition hover:bg-black hover:text-white
+ duration-300    }
+ .contact{
+        @apply outline-none bg-black/80 rounded-sm border-b px-6 py-4 border-[#242424] text-gray-500 placeholder-white transition-all focus:border-black focus:text-white
+   
+ }
+}
